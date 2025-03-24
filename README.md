@@ -1,48 +1,22 @@
-# 🚀 Vite + ReactJS Project
+🚀 Vite + ReactJS Project
 
-This is a **Vite + ReactJS** starter project with optimized performance and fast build times.
+This is a Vite + ReactJS starter project with optimized performance and fast build times. It provides a lightweight and fast development environment for modern web applications.
 
-## 📦 Installation
+📦 Installation
 
-1. **Clone the repository:**
+Clone the repository:
 
-   ```sh
-   git clone https://github.com/duynv13636/NextSky_Project_Test.git
-   cd your-project
+git clone https://github.com/your-username/your-project.git
+cd your-project
 
-   ```
-
-2. **Install dependencies:**
+Install dependencies:
 
 npm install
-
-# or
-
+or
 yarn install
 
-3. **Install dependencies:**
+Start the development server:
 
 npm run dev
-
-# or
-
+or
 yarn dev
-
-4. **Build for Production:**
-   npm run build
-
-# or
-
-yarn build
-
-📂 project
-├── 📂 src
-│ ├── 📂 components # Reusable components
-│ ├── 📂 pages # Page components
-│ ├── 📂 assets # Static assets (images, fonts, etc.)
-│ ├── 📜 App.jsx # Main app component
-│ ├── 📜 main.jsx # Entry point
-│ ├── 📜 index.css # Global styles
-├── 📜 vite.config.js # Vite configuration
-├── 📜 package.json # Project dependencies
-├── 📜 README.md # Project documentation
