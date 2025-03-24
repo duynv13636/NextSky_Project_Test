@@ -6,7 +6,7 @@ This is a Vite + ReactJS starter project with optimized performance and fast bui
 
 Clone the repository:
 
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/duynv13636/NextSky_Project_Test.git
 cd your-project
 
 Install dependencies:
