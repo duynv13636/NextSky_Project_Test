@@ -1,12 +1,48 @@
-# React + Vite
+# 🚀 Vite + ReactJS Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Vite + ReactJS** starter project with optimized performance and fast build times.
 
-Currently, two official plugins are available:
+## 📦 Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Clone the repository:**
 
-## Expanding the ESLint configuration
+   ```sh
+   git clone https://github.com/duynv13636/NextSky_Project_Test.git
+   cd your-project
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```
+
+2. **Install dependencies:**
+
+npm install
+
+# or
+
+yarn install
+
+3. **Install dependencies:**
+
+npm run dev
+
+# or
+
+yarn dev
+
+4. **Build for Production:**
+   npm run build
+
+# or
+
+yarn build
+
+📂 project
+├── 📂 src
+│ ├── 📂 components # Reusable components
+│ ├── 📂 pages # Page components
+│ ├── 📂 assets # Static assets (images, fonts, etc.)
+│ ├── 📜 App.jsx # Main app component
+│ ├── 📜 main.jsx # Entry point
+│ ├── 📜 index.css # Global styles
+├── 📜 vite.config.js # Vite configuration
+├── 📜 package.json # Project dependencies
+├── 📜 README.md # Project documentation
