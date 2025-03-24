@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/next-sky",
+  base: "/NextSky_Project_Test",
 });
