@@ -25,15 +25,10 @@ const Banner = () => {
           So soft you don't want to take it off.
         </p>
         <div className="md:pt-[50px] pt-[30px] flex md:justify-center">
-          <ButtonCommon
-            bgBtn={"#111111"}
-            textBtn={"Explore Now"}
-            colorBtn={"#FFFFFF"}
-            widthBtn={"200"}
-            heightBtn={"55"}
-            heightMobile={"50"}
-            widthMobile={"150"}
-          />
+          <button
+            className={`bg-[#111111] text-white rounded-[30px] flex justify-center items-center cursor-pointer md:w-[200px] w-[150px] md:h-[55px] h-[50px] hover:bg-white hover:text-black hover:border transition-all`}>
+            Explore Now
+          </button>
         </div>
       </div>
       <div className="absolute top-1/2 -translate-y-1/2 left-[30px] md:flex hidden">

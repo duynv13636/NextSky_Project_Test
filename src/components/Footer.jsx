@@ -193,15 +193,10 @@ const Footer = () => {
                     placeholder="Enter your email..."
                     className="px-4 py-3 rounded-[30px] border-[1px] border-[#EBEBEB] outline-none w-full h-[50px]"
                   />
-                  <ButtonCommon
-                    bgBtn={"black"}
-                    colorBtn={"#FFFFFF"}
-                    heightBtn={"50"}
-                    widthBtn={"150"}
-                    textBtn={"SUBSCRIBE"}
-                    widthMobile={"150"}
-                    heightMobile={"50"}
-                  />
+                  <button
+                    className={`bg-[#111111] text-white rounded-[30px] flex justify-center items-center cursor-pointer w-[150px] h-[50px] hover:bg-white hover:text-black`}>
+                    SUBSCRIBE
+                  </button>
                 </div>
               </div>
             )}
@@ -216,15 +211,10 @@ const Footer = () => {
                 placeholder="Enter your email..."
                 className="px-4 py-3 rounded-[30px] border-[1px] border-[#EBEBEB] outline-none w-[290px] h-[50px]"
               />
-              <ButtonCommon
-                bgBtn={"black"}
-                colorBtn={"#FFFFFF"}
-                heightBtn={"50"}
-                widthBtn={"150"}
-                textBtn={"SUBSCRIBE"}
-                heightMobile={"50"}
-                widthMobile={"150"}
-              />
+              <button
+                className={`bg-[#111111] text-white rounded-[30px] flex justify-center items-center cursor-pointer w-[150px] h-[50px] hover:bg-white hover:text-black hover:border transition-all`}>
+                SUBSCRIBE
+              </button>
             </div>
           </div>
         </div>
